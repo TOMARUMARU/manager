@@ -6,7 +6,7 @@ import EmployeeList from './components/EmployeeList';
 const RouterComponent = () => {
   return (
     <Router sceneStyle={{ marginTop: 60 }}>
-      <Scene key="root">
+      <Scene key="root" hideNavBar>
         <Scene key="auth">
           <Scene key="login" component={LoginForm} title="Please login" initial />
         </Scene>
