@@ -70,6 +70,7 @@ const styles = {
     fontSize: 20,
     alignSelf: 'center',
     color: 'red'
+  }
 };
 
 const mapStateToProps = state => {
