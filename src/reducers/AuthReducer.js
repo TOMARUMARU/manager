@@ -1,4 +1,4 @@
-import { EMAIL_CHANGED } from '.../actions/types';
+import { EMAIL_CHANGED } from '../actions/types';
 
 const INITIAL_STATE = { email: '' };
 
