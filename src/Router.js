@@ -4,7 +4,7 @@ import LoginForm from './components/LoginForm';
 
 const RouterComponent = () => {
   return (
-    <Router>
+    <Router sceneStyle={{ marginTop: 60 }}>
       <Scene key="root">
         <Scene key="login" component={LoginForm} title="Please login" />
       </Scene>
