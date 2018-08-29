@@ -38,3 +38,15 @@ class LoginForm extends Component {
 }
 
 export default connect(null, { emailChanged })(LoginForm);
+
+// const mapStateToProps = () => {
+//   return {};
+// };
+//
+// const mapDispatchToProps = (dispatch) => {
+//   return {
+//     emailChanged: (text) => dispatch(emailChanged(text)),
+//   };
+// };
+
+// export default connect(mapStateToProps, mapDispatchToProps)(LoginForm);
