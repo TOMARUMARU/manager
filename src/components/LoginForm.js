@@ -8,6 +8,10 @@ class LoginForm extends Component {
     this.props.emailChanged(text);
   }
 
+  onPasswordChange(text) {
+    this.props.passwordChanged(text);
+  }
+
   render() {
     return (
       <Card>
@@ -25,6 +29,7 @@ class LoginForm extends Component {
             secureTextEntry
             label="password"
             placeholder="password"
+            onChangeText={this.onPasswordChange.bind(this)}
           />
         </CardSection>
 
