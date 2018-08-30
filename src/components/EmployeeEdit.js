@@ -20,7 +20,9 @@ class EmployeeEdit extends Component {
   }
 
   onTextPress() {
+    const { phone, shift } = this.props;
 
+    Communications.text(phone, `Your upcoming shift is on ${shift}`)
   }
 
   render() {
