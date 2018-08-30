@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import Communications from 'react-native-communications';
 import EmployeeForm from './EmployeeForm';
-import { employeeUpdate, employeeSave } from '../actions';
+import { employeeUpdate, employeeSave, employDelete } from '../actions';
 import { Card, CardSection, Button, Confirm } from './common';
 
 class EmployeeEdit extends Component {
@@ -77,5 +77,5 @@ const mapStateToProps = (state) => {
 };
 
 export default connect(mapStateToProps, {
-   employeeUpdate, employeeSave
+   employeeUpdate, employeeSave, employDelete
 })(EmployeeEdit);
