@@ -32,7 +32,7 @@ class EmployeeEdit extends Component {
   }
 
   onDecline() {
-    
+    this.setState({ showModal: false });
   }
 
   render() {
