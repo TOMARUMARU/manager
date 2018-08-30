@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { employeeUpdate, employeeCreate } from '../actions';
 import { Card, CardSection, Button } from './common';
-import { EmployeeForm } from './EmployeeForm';
+import EmployeeForm from './EmployeeForm';
 
 class EmployeeCreate extends Component {
   onButtonPress() {
