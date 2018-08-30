@@ -40,7 +40,7 @@ class EmployeeCreate extends Component {
           >
             <Picker.Item label="Monday" value="Monday" />
             <Picker.Item label="Tuesday" value="Tuesday" />
-            <Picker.Item label="Wednesdat" value="Wednesdat" />
+            <Picker.Item label="Wednesday" value="Wednesday" />
             <Picker.Item label="Thursday" value="Thursday" />
             <Picker.Item label="Fryday" value="Fryday" />
             <Picker.Item label="Saturday" value="Saturday" />
