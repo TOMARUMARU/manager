@@ -18,13 +18,24 @@ class EmployeeEdit extends Component {
     this.props.employeeSave({ name, phone, shift, uid: this.props.employee.uid });
   }
 
+  onTextPress() {
+
+  }
+
   render() {
     return (
       <Card>
         <EmployeeForm />
+
         <CardSection>
           <Button onPress={this.onButtonPress.bind(this)}>
             Edit
+          </Button>
+        </CardSection>
+
+        <CardSection>
+          <Button onPress={this.onTextPress.bind(this)}>
+            Text Schedule
           </Button>
         </CardSection>
       </Card>
