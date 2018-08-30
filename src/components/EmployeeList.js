@@ -1,3 +1,4 @@
+import _ from 'lodash';
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { ListView, View, Text } from 'react-native';
@@ -37,6 +38,10 @@ class EmployeeList extends Component {
       </View>
     );
   }
+}
+
+const mapStateToProps = state => {
+
 }
 
 export default connect(null, { employeesFetch })(EmployeeList);
