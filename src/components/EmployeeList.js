@@ -14,6 +14,12 @@ class EmployeeList extends Component {
     this.dataSource = ds.cloneWithRows(this.props.employees);
   }
 
+  componentWillReceiveProps(nextProps) {
+    // nextProps are the next set of props that this component
+    // will be renderd with
+    // this.props is still the old set of props
+  }
+
   render() {
     return (
       <View>
